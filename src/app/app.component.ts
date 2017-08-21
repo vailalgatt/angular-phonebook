@@ -79,13 +79,13 @@ styles: [`
 
 export class AppComponent implements OnInit {
   title = 'Contacts';
-  contacts = Contact[];
+  contacts: Contact[];
   selectedContact: Contact;
 
   constructor(private contactService: ContactService) { } //constructor defines a private contact service and an injection site
 
   getContacts(): void {
-    this.contactService.getContacts().then(contacts => this.contacts = contacts);
+    this.contactService.getContacts().then(heroes => this.contacts = contacts);
   }
 
   ngOnInit(): void {

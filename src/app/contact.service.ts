@@ -5,8 +5,14 @@ import { CONTACTS } from './mock-contacts';
 
 @Injectable()
 export class ContactService {
-    //getContacts(): void {} //method stub
-    getContacts(): Contact[]{
-        return CONTACTS;
-    }
+  getContacts(): Promise<Contact[]> {
+    return Promise.resolve(CONTACTS);
+  }
+
+  getContactsSlowly(): Promise<Contact[]> {
+    return new Promise(resolve => {
+      setTimeout(() => resolve(this.getContacts()), 2000);
+    });
+  }
 }
+//async promises
