@@ -36,7 +36,7 @@ const CONTACTS: Contact[] = [
     </li>
   </ul>
   <div *ngIf="selectedContact">
-    <h2>{{selectedContact.name}} details!</h2>
+    <h2>{{selectedContact.name}}s details:</h2>
     <div><label>id: </label>{{selectedContact.id}}</div>
     <div><label>phone: </label>{{selectedContact.phone}}</div>
     <div><label>email: </label>{{selectedContact.email}}</div>    
@@ -52,13 +52,14 @@ styles: [`
   background-color: #CFD8DC !important;
   color: white;
 }
-.heroes {
+.contacts {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
+  font-size: 15px
 }
-.heroes li {
+.contacts li {
   cursor: pointer;
   position: relative;
   left: 0;
@@ -68,36 +69,33 @@ styles: [`
   height: 1.6em;
   border-radius: 4px;
 }
-.heroes li.selected:hover {
+.contacts li.selected:hover {
   background-color: #BBD8DC !important;
   color: white;
 }
-.heroes li:hover {
+.contacts li:hover {
   color: #607D8B;
   background-color: #DDD;
   left: .1em;
 }
-.heroes .text {
+.contacts .text {
   position: relative;
   top: -3px;
 }
-.heroes .badge {
+.contacts .badge {
   display: inline-block;
   font-size: small;
   color: white;
-  padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607D8B;
+  padding: 0.5em 0.7em 0 0.7em;
+  background-color: #FFC0CB;
   line-height: 1em;
   position: relative;
   left: -1px;
-  top: -4px;
+  top: -5px;
   height: 1.8em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
-}
-.badge{
-  background-color: #FFC0CB;
-  font-family: 'Nunito', sans-serif;  
+  font-family: 'Nunito', sans-serif;    
 }
 `]
 })
