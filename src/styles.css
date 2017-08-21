@@ -14,3 +14,12 @@ h2 {
 p {
     font-family: 'Lato', sans-serif;    
 }
+
+li {
+    font-family: 'Lato', sans-serif;   
+    font-weight: bold;
+}
+
+li.selected {
+    font-size: 20px;
+}

@@ -95,6 +95,10 @@ styles: [`
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+.badge{
+  background-color: #FFC0CB;
+  font-family: 'Nunito', sans-serif;  
+}
 `]
 })
 
