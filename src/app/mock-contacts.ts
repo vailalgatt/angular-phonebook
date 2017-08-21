@@ -1,14 +1,15 @@
 import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
-  { id: 11, name: 'Steph', phone: 111111111, email: 'steph@steph.com' },
-  { id: 12, name: 'Lu', phone: 222222222, email: 'lu@lu.com' },
-  { id: 13, name: 'Ingrid', phone: 333333333, email: 'ingrid@ingrid.com' },
-  { id: 14, name: 'Gabby', phone: 444444444, email: 'gabby@gabby.com' },
-  { id: 15, name: 'Chippy', phone: 555555555, email: 'chippy@chippy.com' },
-  { id: 16, name: 'Jo', phone: 666666666, email: 'jo@jo.com' },
-  { id: 17, name: 'Chewy', phone: 777777777, email: 'chewy@chewy.com' },
-  { id: 18, name: 'Will', phone: 888888888, email: 'will@will.com' },
-  { id: 19, name: 'Duane', phone: 999999999, email: 'duane@duane.com' },
-  { id: 20, name: 'Jay', phone: 123123123, email: 'jay@jay.com' },
-];
+    { id: 1, name: 'Adam', phone: 111111111, email: 'adam@adam.com' },
+    { id: 2, name: 'Katy', phone: 222222222, email: 'katy@katy.com' },
+    { id: 3, name: 'Kyra', phone: 333333333, email: 'kyra@kyra.com' },
+    { id: 4, name: 'Jill', phone: 444444444, email: 'jill@jill.com' },
+    { id: 5, name: 'Yadira', phone: 555555555, email: 'yadira@yadira.com' },
+    { id: 6, name: 'Judy', phone: 666666666, email: 'judy@judy.com' },
+    { id: 7, name: 'Shay', phone: 777777777, email: 'shay@shay.com' },
+    { id: 8, name: 'Bob', phone: 888888888, email: 'bob@bob.com' },
+    { id: 9, name: 'Gene', phone: 999999999, email: 'gene@gene.com' },
+    { id: 20, name: 'Robert', phone: 123123123, email: 'robert@robert.com' },
+    { id: 10, name: 'Chuy', phone: 234234234, email: 'chuy@chuy.com' }
+  ];
