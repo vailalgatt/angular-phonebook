@@ -19,13 +19,21 @@ import { ContactService } from './contact.service'
       <span class="badge">{{contact.id}}</span> {{contact.name}}
     </li>
   </ul>
+  <div class="details">
   <contact-detail [contact]="selectedContact"></contact-detail>
+  </div>
   `,
 
 styles: [`
 .selected {
   background-color: #CFD8DC !important;
   color: white;
+}
+.details {
+  border: solid;
+  text-align: center;
+  padding: 15px;
+  background-color: #FFC0CB;
 }
 .contacts {
   margin: 0 0 2em 0;
